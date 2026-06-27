@@ -78,35 +78,39 @@ class FavoritePropertyCard extends ConsumerWidget {
                   ),
                 ),
                 const SizedBox(width: 13),
-                Column(
-                  spacing: 5,
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      property.location.toUpperCase(),
-                      style: TextStyle(
-                        color: AppColors.textDiscret,
-                        fontSize: 9,
-                        wordSpacing: 0.7,
+                Expanded(
+                  child: Column(
+                    spacing: 5,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        property.location.toUpperCase(),
+                        overflow: TextOverflow.ellipsis,
+                        style: TextStyle(
+                          color: AppColors.textDiscret,
+                          fontSize: 9,
+                          wordSpacing: 0.7,
+                        ),
                       ),
-                    ),
-                    Text(
-                      property.title,
-                      style: GoogleFonts.cormorantGaramond(
-                        fontSize: 15,
-                        fontWeight: FontWeight.bold,
+                      Text(
+                        property.title,
+                        overflow: TextOverflow.ellipsis,
+                        style: GoogleFonts.cormorantGaramond(
+                          fontSize: 15,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
-                    ),
-                    Text(
-                      '${priceFormat(property.price.toInt())} ${property.currency}',
-                      style: GoogleFonts.cormorantGaramond(
-                        fontSize: 16,
-                        fontWeight: FontWeight.bold,
-                        wordSpacing: 2,
+                      Text(
+                        '${priceFormat(property.price.toInt())} ${property.currency}',
+                        style: GoogleFonts.cormorantGaramond(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                          wordSpacing: 2,
+                        ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ],
             ),
