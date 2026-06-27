@@ -254,5 +254,6 @@ Le projet utilise un design system sombre inspiré de l'immobilier de luxe, cent
 Développé par **Stiti Anas**  
 Stack Flutter / Firebase / Riverpod — disponible en freelance
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profil-0A66C2?logo=linkedin)](https://linkedin.com/in/ton-profil)
+[![Demo](https://img.shields.io/badge/Présentation-Demo%20Live-C9A96E?logo=github)](https://Anas121.github.io/aura_estates/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profil-0A66C2?logo=linkedin)](https://www.linkedin.com/in/stitianas121/)
 [![Email](https://img.shields.io/badge/Contact-stiti.anas%40proton.me-EA4335?logo=gmail)](mailto:stiti.anas@proton.me)
