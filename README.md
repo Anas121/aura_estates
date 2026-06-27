@@ -255,4 +255,4 @@ Développé par **Stiti Anas**
 Stack Flutter / Firebase / Riverpod — disponible en freelance
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profil-0A66C2?logo=linkedin)](https://linkedin.com/in/ton-profil)
-[![Email](https://img.shields.io/badge/Contact-email%40exemple.com-EA4335?logo=gmail)](mailto:email@exemple.com)
+[![Email](https://img.shields.io/badge/Contact-email%40exemple.com-EA4335?logo=gmail)](mailto:stiti.anas@proton.me)
