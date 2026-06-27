@@ -1,0 +1,68 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "admin",
+            "cwd": "apps\\admin",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "admin (profile mode)",
+            "cwd": "apps\\admin",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "admin (release mode)",
+            "cwd": "apps\\admin",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "Aura_estates_mobile",
+            "cwd": "apps\\Aura_estates_mobile",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Aura_estates_mobile (profile mode)",
+            "cwd": "apps\\Aura_estates_mobile",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "Aura_estates_mobile (release mode)",
+            "cwd": "apps\\Aura_estates_mobile",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "aura_estates_core",
+            "cwd": "packages\\aura_estates_core",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "aura_estates_core (profile mode)",
+            "cwd": "packages\\aura_estates_core",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "aura_estates_core (release mode)",
+            "cwd": "packages\\aura_estates_core",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+name: admin
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  aura_estates_core:
+    path: ../../packages/aura_estates_core
+  flutter_riverpod: ^3.3.1 
+  firebase_core: ^4.11.0 
+  build_runner: 
+  riverpod_annotation: ^4.0.2
+  firebase_auth: ^6.5.3
+  google_fonts: ^8.1.0
+  go_router: ^17.3.0
+  cloud_firestore: ^6.6.0
+  image_picker: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  riverpod_generator:
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true

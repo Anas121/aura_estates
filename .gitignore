@@ -1,0 +1,6 @@
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+*.g.dart        # ignorer les fichiers générés
+firebase_options.dart  # push sur un repo public

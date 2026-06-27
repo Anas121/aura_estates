@@ -1,0 +1,18 @@
+name: aura_estates_workspace
+
+packages:
+  - apps/**
+  - packages/**
+
+command:
+  bootstrap:
+    runPubGetInParallel: false
+
+scripts:
+  get:
+    run: melos exec -- flutter pub get
+    description: flutter pub get dans tous les packages/apps du monorepo
+
+  gen:
+    run: melos exec -- dart run build_runner build --delete-conflicting-outputs
+    description: Régénère les fichiers .g.dart (Riverpod) dans tous les packages/apps qui en ont

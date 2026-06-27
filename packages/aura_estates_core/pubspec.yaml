@@ -1,0 +1,34 @@
+name: aura_estates_core
+description: >
+  Couche partagée d'Aura Estates : modèles, repositories Firebase/Cloudinary,
+  controllers Riverpod et thème. Utilisée à la fois par l'app mobile et par
+  le futur dashboard admin Flutter Web.
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Backend
+  cloud_firestore: 
+  firebase_auth: 
+  http: 
+  image_picker: 
+
+  # State management (codegen) — on dépend du package riverpod "pur",
+  # les apps consommatrices (mobile, admin) utilisent flutter_riverpod,
+  # qui est conçu pour être 100% compatible avec des providers définis ici.
+  riverpod: 
+  riverpod_annotation: 
+
+dev_dependencies:
+  flutter_lints: 
+  build_runner: 
+  riverpod_generator: 
+
+flutter:
+  uses-material-design: true

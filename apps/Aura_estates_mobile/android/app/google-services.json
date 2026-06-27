@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "374960332576",
+    "project_id": "aura-estates-19b11",
+    "storage_bucket": "aura-estates-19b11.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374960332576:android:912d9835f64ba908220145",
+        "android_client_info": {
+          "package_name": "com.example.aura_estates"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3mSJvEK0Zr30tOrYIs20JS6f0lrdmf5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
